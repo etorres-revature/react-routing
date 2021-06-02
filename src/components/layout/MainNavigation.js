@@ -14,8 +14,8 @@ const MainNavigation = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/new-quotes" activeClassName={styles.active}>
-              Add a Quotes
+            <NavLink to="/new-quote" activeClassName={styles.active}>
+              Add a Quote
             </NavLink>
           </li>
         </ul>
