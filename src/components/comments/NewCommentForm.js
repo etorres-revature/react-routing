@@ -25,7 +25,7 @@ const NewCommentForm = (props) => {
 
     // optional: Could validate here
 
-    sendRequest({ text: enteredText }, props.quoteID);
+    sendRequest({ commentData: { text: enteredText }, quoteID: props.quoteID });
   };
 
   return (
